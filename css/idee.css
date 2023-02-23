@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background: #F79F24;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+}
+
+ul{
+    float: right;
+    margin-right: 130px;
+}
+
+li{
+    line-height: 80px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 7px 13px;
+}
+
+a:hover{
+    background: black;
+    transition: 5s;
+}
+
+.joo{
+    background: black;
+}
+
+.logo{
+    padding: 0 100px;
+    font-size: 40px;
+    color: white;
+    line-height:80px;
+    font-weight: bold;
+}
+
+.tay{
+    font-size: 40px;
+    float: right;
+    line-height: 80px;
+    margin-right: 130px;
+    cursor: pointer;
+    color: black;
+}
+
+#icon{
+    font-size: 40px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; 
+    display: none;
+}
+
+@media (max-width:1048px){
+    .logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    ul{
+        margin-right: 20px;
+    }
+    a{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:909px) {
+    #icon{
+        display: block;
+    }
+    
+    ul{
+        margin-right: 20px;
+    }
+
+    a{
+        font-size: 17px;
+    }
+
+}
+
+.tray{
+    display: flex;
+    justify-content: space-around;
+  
+    /* align-items: center;
+    align-items: center;
+    padding: 15px 15px ;
+    margin: 20px; */
+}
+
+.font{
+    font-size: 44px;
+    background-color: rgb(189, 182, 182);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.fonte{
+    font-size: 44px;
+    background-color: rgb(189, 182, 182);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.lot{
+    align-items: center;
+    padding: 15px 15px ;
+    margin: 40px; 
+}
+
+.item{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    height: -40px;
+}
+
+.yoo{
+    display: flex;
+    justify-content: space-around;
+   width: 40px;
+}
+
+.zo{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+footer{
+    /* position: fixed; */
+    bottom: 40px;
+    width: 100%;
+    background: #F79F24;
+    height: 30vh;
+    
+}
+
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600px;
+    text-transform: uppercase;
+
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+
+}
+.left .content .nous suivre a{
+    padding: 0 2px;
+}
+
+.left .content p{
+    text-align: justify;
+}
+
+.left .content .nous suivre a span{
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .nous suivre a span:hover{
+    background: white;
+
+}

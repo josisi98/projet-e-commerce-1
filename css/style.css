@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background: #F79F24;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+}
+
+ul{
+    float: right;
+    margin-right: 130px;
+}
+
+li{
+    line-height: 80px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 7px 13px;
+}
+
+a:hover{
+    background: black;
+    transition: 5s;
+}
+
+.joo{
+    background: black;
+}
+
+.logo{
+    padding: 0 100px;
+    font-size: 40px;
+    color: white;
+    line-height:80px;
+    font-weight: bold;
+}
+
+.tay{
+    font-size: 40px;
+    float: right;
+    line-height: 80px;
+    margin-right: 130px;
+    cursor: pointer;
+    color: black;
+}
+
+#icon{
+    font-size: 40px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; 
+    display: none;
+}
+
+@media (max-width:1048px){
+    .logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    ul{
+        margin-right: 20px;
+    }
+    a{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:909px) {
+    #icon{
+        display: block;
+    }
+    
+    ul{
+        margin-right: 20px;
+    }
+
+    a{
+        font-size: 17px;
+    }
+
+}
+
+.flor{
+    display: flex;
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    align-items: center;
+}
+
+.joe{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 10px;
+    top: 150px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lot{
+    align-items: center;
+    padding: 15px 15px ;
+    margin: 20px;
+}
+
+.lop{
+    width: 550px;
+    height: 350px;
+    border-radius: 40px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.pop{
+    background-color: #F79F24;
+    font-size: 30px;
+    border-radius: 50px;
+    width: 240px;
+    height: 50px;
+    padding: 6px;
+    top: 20px;
+    margin-left: 40px;
+    margin-top: -40px;
+    text-align:;
+}
+
+.heart{
+    margin-top: -45px; 
+    margin-left: 230px;
+    font-size: 40px;
+}
+
+.popt{
+    background-color: #F79F24;
+    font-size: 40px;
+    border-radius: 50px;
+    width: 240px;
+    height: 50px;
+    padding: 3px;
+    top: 40px;
+    margin-left: 40px;
+}
+
+.tkt{
+    margin-left: 30px;
+}
+
+.pot{
+    background-color: #F79F24;
+    font-size: 40px;
+    border-radius: 50px;
+    width: 260px;
+    height: 50px;
+    padding: 3px;
+    top: 40px;
+    margin-left: 310px;
+    margin-top: -50px;
+}
+
+.pote{
+    background-color: #F79F24;
+    font-size: 30px;
+    border-radius: 50px;
+    width: 240px;
+    height: 50px;
+    padding: 6px;
+    top: 20px;
+    margin-left: 40px;
+    margin-top: -10px;
+    
+    
+}
+
+.tal{
+    font-size: 40px;
+}
+
+.tale{
+    font-size: 24px;
+}
+
+footer{
+    /* position: fixed; */
+    bottom: 40px;
+    width: 100%;
+    background: #F79F24;
+    height: 30vh;
+    
+}
+
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600px;
+    text-transform: uppercase;
+
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.left .content .nous suivre{
+    margin: 20px 0 0 0;
+
+}
+.left .content .nous suivre a{
+    padding: 0 2px;
+}
+
+.left .content p{
+    text-align: justify;
+}
+
+.left .content .nous suivre a span{
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .nous suivre a span:hover{
+    background: white;
+
+}
